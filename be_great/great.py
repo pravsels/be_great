@@ -14,10 +14,10 @@ from transformers import (AutoTokenizer,
                           AutoModelForCausalLM,
                           TrainingArguments)
 
-from be_great.great_dataset import GReaTDataset, GReaTDataCollator
-from be_great.great_start import GReaTStart, CategoricalStart, ContinuousStart, RandomStart
-from be_great.great_trainer import GReaTTrainer
-from be_great.great_utils import _array_to_dataframe, _get_column_distribution, _convert_tokens_to_text, \
+from .great_dataset import GReaTDataset, GReaTDataCollator
+from .great_start import GReaTStart, CategoricalStart, ContinuousStart, RandomStart
+from .great_trainer import GReaTTrainer
+from .great_utils import _array_to_dataframe, _get_column_distribution, _convert_tokens_to_text, \
     _convert_text_to_tabular_data
 
 
